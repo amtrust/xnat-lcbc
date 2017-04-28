@@ -46,26 +46,28 @@ $page.setVlinkColor($ui.vlink)/*
 							<TR><TD>original</TD><TD>$!item.getStringProperty("behavioral:scores/original")</TD></TR>
 							<TR><TD>protocol</TD><TD>$!item.getStringProperty("behavioral:scores/protocol")</TD></TR>
 							<TR><TD>label</TD><TD>$!item.getStringProperty("behavioral:scores/label")</TD></TR>
-							<TR><TD>SATScore</TD><TD>$!item.getStringProperty("behavioral:scores/SATScore")</TD></TR>
-							<TR><TD>ACTScore</TD><TD>$!item.getStringProperty("behavioral:scores/ACTScore")</TD></TR>
-							<TR><TD>VocabScore</TD><TD>$!item.getStringProperty("behavioral:scores/VocabScore")</TD></TR>
-							<TR><TD>VocabScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/VocabScaledScore")</TD></TR>
-							<TR><TD>FiguresAScore</TD><TD>$!item.getStringProperty("behavioral:scores/FiguresAScore")</TD></TR>
-							<TR><TD>FiguresBScore</TD><TD>$!item.getStringProperty("behavioral:scores/FiguresBScore")</TD></TR>
-							<TR><TD>FiguresScore</TD><TD>$!item.getStringProperty("behavioral:scores/FiguresScore")</TD></TR>
-							<TR><TD>FiguresAScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/FiguresAScaledScore")</TD></TR>
-							<TR><TD>FiguresBScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/FiguresBScaledScore")</TD></TR>
-							<TR><TD>FiguresScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/FiguresScaledScore")</TD></TR>
-							<TR><TD>LSATAScore</TD><TD>$!item.getStringProperty("behavioral:scores/LSATAScore")</TD></TR>
-							<TR><TD>LSATBScore</TD><TD>$!item.getStringProperty("behavioral:scores/LSATBScore")</TD></TR>
-							<TR><TD>LSATScore</TD><TD>$!item.getStringProperty("behavioral:scores/LSATScore")</TD></TR>
-							<TR><TD>LetterSeries</TD><TD>$!item.getStringProperty("behavioral:scores/LetterSeries")</TD></TR>
-							<TR><TD>LetterSeriesScaled</TD><TD>$!item.getStringProperty("behavioral:scores/LetterSeriesScaled")</TD></TR>
-							<TR><TD>NumberSeries</TD><TD>$!item.getStringProperty("behavioral:scores/NumberSeries")</TD></TR>
-							<TR><TD>NumberSeriesScaled</TD><TD>$!item.getStringProperty("behavioral:scores/NumberSeriesScaled")</TD></TR>
-							<TR><TD>ShipleyTOAbst</TD><TD>$!item.getStringProperty("behavioral:scores/ShipleyTOAbst")</TD></TR>
-							<TR><TD>MR</TD><TD>$!item.getStringProperty("behavioral:scores/MR")</TD></TR>
-							<TR><TD>MRScaled</TD><TD>$!item.getStringProperty("behavioral:scores/MRScaled")</TD></TR>
+							<TR><TD>BEHAVSCORES/SATScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/SATScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/ACTScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/ACTScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/VocabScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/VocabScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/VocabScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/VocabScaledScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresAScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/FiguresAScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresBScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/FiguresBScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/FiguresScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresAScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/FiguresAScaledScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresBScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/FiguresBScaledScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresScaledScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/FiguresScaledScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/LSATAScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/LSATAScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/LSATBScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/LSATBScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/LSATScore</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/LSATScore")</TD></TR>
+							<TR><TD>BEHAVSCORES/LetterSeries</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/LetterSeries")</TD></TR>
+							<TR><TD>BEHAVSCORES/LetterSeriesScaled</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/LetterSeriesScaled")</TD></TR>
+							<TR><TD>BEHAVSCORES/NumberSeries</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/NumberSeries")</TD></TR>
+							<TR><TD>BEHAVSCORES/NumberSeriesScaled</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/NumberSeriesScaled")</TD></TR>
+							<TR><TD>BEHAVSCORES/ShipleyTOAbst</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/ShipleyTOAbst")</TD></TR>
+							<TR><TD>BEHAVSCORES/MR</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/MR")</TD></TR>
+							<TR><TD>BEHAVSCORES/MRScaled</TD><TD>$!item.getStringProperty("behavioral:scores/BEHAVSCORES/MRScaled")</TD></TR>
+							<TR><TD>METADATA/Project_Wave</TD><TD>$!item.getStringProperty("behavioral:scores/METADATA/Project_Wave")</TD></TR>
+							<TR><TD>METADATA/Subject_Timepoint</TD><TD>$!item.getStringProperty("behavioral:scores/METADATA/Subject_Timepoint")</TD></TR>
 						</TABLE>
 					</TD>
 					<TD valign="top" align="right">

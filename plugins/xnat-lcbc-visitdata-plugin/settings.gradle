@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'xnat-visitdata-plugin'
+rootProject.name = 'xnat-lcbc-visitdata-plugin'

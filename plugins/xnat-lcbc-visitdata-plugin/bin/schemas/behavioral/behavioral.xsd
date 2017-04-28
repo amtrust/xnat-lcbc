@@ -2,13 +2,25 @@
 <xs:schema targetNamespace="http://sharp.bidmc.harvard.edu/behavioral" xmlns:behavioral="http://sharp.bidmc.harvard.edu/behavioral" xmlns:xnat="http://nrg.wustl.edu/xnat" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:import namespace="http://nrg.wustl.edu/xnat" schemaLocation="../xnat/xnat.xsd"/>
 	<xs:element name="BehavioralScores" type="behavioral:scores"/>
+
 	<xs:complexType name="scores">
 		<xs:annotation>
 			<xs:documentation>Behavioral Score for SHARP study</xs:documentation>
 		</xs:annotation>
+
 		<xs:complexContent>
 			<xs:extension base="xnat:subjectAssessorData">
 				<xs:sequence>
+			
+				<xs:element name="BEHAVSCORES" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						Original behavscores Added metadata (Should reside under behavioral:scores/BEHAVSCORES/)
+					</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+			
 					<xs:element name="SATScore" type="xs:string" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
 							<xs:documentation>SATScore</xs:documentation>
@@ -170,6 +182,20 @@
 							<xs:restriction base="xs:string"/>
 						</xs:simpleType>
 					</xs:element>
+				
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<xs:element name="METADATA" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						Added metadata (Should reside under behavioral:scores/METADATA/)
+					</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>	
+				
 					<xs:element name="Project_Wave" type="xs:string" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
 							<xs:documentation>Project_Wave</xs:documentation>
@@ -187,7 +213,12 @@
 							<xs:restriction base="xs:string"/>
 						</xs:simpleType>
 					</xs:element>
-					
+				
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+				
+				
 				</xs:sequence>
 			</xs:extension>
 		</xs:complexContent>

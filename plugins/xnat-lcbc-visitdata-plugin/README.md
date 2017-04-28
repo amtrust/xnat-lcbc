@@ -1,1 +1,1 @@
-Builds on the xnat workshop plugin with additional work by Raminder Singh. 
+# xnat-behavioral-plugin

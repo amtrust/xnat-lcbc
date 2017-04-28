@@ -41,140 +41,154 @@ $page.setVlinkColor($ui.vlink)
                     <td>&nbsp;</td>
                     #formLabel("SATScore")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/SATScore")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/SATScore")
                      </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("ACTScore")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/ACTScore")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/ACTScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("VocabScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/VocabScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/VocabScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("VocabScaledScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/VocabScaledScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/VocabScaledScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("FiguresAScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/FiguresAScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/FiguresAScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("FiguresBScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/FiguresBScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/FiguresBScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("FiguresScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/FiguresScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/FiguresScore")
                     </td>
                 </tr>
                  <tr>
                     <td>&nbsp;</td>
                     #formLabel("FiguresAScaledScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/FiguresAScaledScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/FiguresAScaledScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("FiguresBScaledScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/FiguresBScaledScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/FiguresBScaledScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("FiguresScaledScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/FiguresScaledScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/FiguresScaledScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("LSATAScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/LSATAScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/LSATAScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("LSATBScore")
                     <td valign="top">
-                    $!item.getProperty("behavioral:scores/LSATBScore")
+                    $!item.getProperty("behavioral:scores/BEHAVSCORES/LSATBScore")
                     </td>
                 </tr>
                  <tr>
                     <td>&nbsp;</td>
                     #formLabel("LSATScore")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/LSATScore")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/LSATScore")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("LetterSeries")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/LetterSeries")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/LetterSeries")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("LetterSeriesScaled")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/LetterSeriesScaled")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/LetterSeriesScaled")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("NumberSeries")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/NumberSeries")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/NumberSeries")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("NumberSeriesScaled")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/NumberSeriesScaled")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/NumberSeriesScaled")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("ShipleyTOAbst")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/ShipleyTOAbst")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/ShipleyTOAbst")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("MR")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/MR")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/MR")
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                     #formLabel("MRScaled")
                     <td valign="top">
-                        $!item.getProperty("behavioral:scores/MRScaled")
+                        $!item.getProperty("behavioral:scores/BEHAVSCORES/MRScaled")
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    #formLabel("Project_Wave")
+                    <td valign="top">
+                        $!item.getProperty("behavioral:scores/METADATA/Project_Wave")
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    #formLabel("Subject_Timepoint")
+                    <td valign="top">
+                        $!item.getProperty("behavioral:scores/METADATA/Subject_Timepoint")
                     </td>
                 </tr>
 

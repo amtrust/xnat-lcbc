@@ -59,26 +59,28 @@ $page.setVlinkColor($ui.vlink)/*
 							<TR><TD>original</TD><TD>#xdatStringBox("behavioral:scores/original" $item "" $vr)</TD></TR>
 							<TR><TD>protocol</TD><TD>#xdatStringBox("behavioral:scores/protocol" $item "" $vr)</TD></TR>
 							<TR><TD>label</TD><TD>#xdatStringBox("behavioral:scores/label" $item "" $vr)</TD></TR>
-							<TR><TD>SATScore</TD><TD>#xdatStringBox("behavioral:scores/SATScore" $item "" $vr)</TD></TR>
-							<TR><TD>ACTScore</TD><TD>#xdatStringBox("behavioral:scores/ACTScore" $item "" $vr)</TD></TR>
-							<TR><TD>VocabScore</TD><TD>#xdatStringBox("behavioral:scores/VocabScore" $item "" $vr)</TD></TR>
-							<TR><TD>VocabScaledScore</TD><TD>#xdatStringBox("behavioral:scores/VocabScaledScore" $item "" $vr)</TD></TR>
-							<TR><TD>FiguresAScore</TD><TD>#xdatStringBox("behavioral:scores/FiguresAScore" $item "" $vr)</TD></TR>
-							<TR><TD>FiguresBScore</TD><TD>#xdatStringBox("behavioral:scores/FiguresBScore" $item "" $vr)</TD></TR>
-							<TR><TD>FiguresScore</TD><TD>#xdatStringBox("behavioral:scores/FiguresScore" $item "" $vr)</TD></TR>
-							<TR><TD>FiguresAScaledScore</TD><TD>#xdatStringBox("behavioral:scores/FiguresAScaledScore" $item "" $vr)</TD></TR>
-							<TR><TD>FiguresBScaledScore</TD><TD>#xdatStringBox("behavioral:scores/FiguresBScaledScore" $item "" $vr)</TD></TR>
-							<TR><TD>FiguresScaledScore</TD><TD>#xdatStringBox("behavioral:scores/FiguresScaledScore" $item "" $vr)</TD></TR>
-							<TR><TD>LSATAScore</TD><TD>#xdatStringBox("behavioral:scores/LSATAScore" $item "" $vr)</TD></TR>
-							<TR><TD>LSATBScore</TD><TD>#xdatStringBox("behavioral:scores/LSATBScore" $item "" $vr)</TD></TR>
-							<TR><TD>LSATScore</TD><TD>#xdatStringBox("behavioral:scores/LSATScore" $item "" $vr)</TD></TR>
-							<TR><TD>LetterSeries</TD><TD>#xdatStringBox("behavioral:scores/LetterSeries" $item "" $vr)</TD></TR>
-							<TR><TD>LetterSeriesScaled</TD><TD>#xdatStringBox("behavioral:scores/LetterSeriesScaled" $item "" $vr)</TD></TR>
-							<TR><TD>NumberSeries</TD><TD>#xdatStringBox("behavioral:scores/NumberSeries" $item "" $vr)</TD></TR>
-							<TR><TD>NumberSeriesScaled</TD><TD>#xdatStringBox("behavioral:scores/NumberSeriesScaled" $item "" $vr)</TD></TR>
-							<TR><TD>ShipleyTOAbst</TD><TD>#xdatStringBox("behavioral:scores/ShipleyTOAbst" $item "" $vr)</TD></TR>
-							<TR><TD>MR</TD><TD>#xdatStringBox("behavioral:scores/MR" $item "" $vr)</TD></TR>
-							<TR><TD>MRScaled</TD><TD>#xdatStringBox("behavioral:scores/MRScaled" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/SATScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/SATScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/ACTScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/ACTScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/VocabScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/VocabScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/VocabScaledScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/VocabScaledScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresAScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/FiguresAScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresBScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/FiguresBScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/FiguresScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresAScaledScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/FiguresAScaledScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresBScaledScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/FiguresBScaledScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/FiguresScaledScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/FiguresScaledScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/LSATAScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/LSATAScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/LSATBScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/LSATBScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/LSATScore</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/LSATScore" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/LetterSeries</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/LetterSeries" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/LetterSeriesScaled</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/LetterSeriesScaled" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/NumberSeries</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/NumberSeries" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/NumberSeriesScaled</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/NumberSeriesScaled" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/ShipleyTOAbst</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/ShipleyTOAbst" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/MR</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/MR" $item "" $vr)</TD></TR>
+							<TR><TD>BEHAVSCORES/MRScaled</TD><TD>#xdatStringBox("behavioral:scores/BEHAVSCORES/MRScaled" $item "" $vr)</TD></TR>
+							<TR><TD>METADATA/Project_Wave</TD><TD>#xdatStringBox("behavioral:scores/METADATA/Project_Wave" $item "" $vr)</TD></TR>
+							<TR><TD>METADATA/Subject_Timepoint</TD><TD>#xdatStringBox("behavioral:scores/METADATA/Subject_Timepoint" $item "" $vr)</TD></TR>
 						</TABLE>
 					</TD>
 				</TR>

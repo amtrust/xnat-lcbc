@@ -1,6 +1,6 @@
 /*
  * GENERATED FILE
- * Created on Thu Apr 27 23:59:39 CEST 2017
+ * Created on Fri Apr 28 11:30:46 CEST 2017
  *
  */
 
@@ -21,285 +21,313 @@ this.xsiType="behavioral:scores";
 	}
 this.extension=dynamicJSLoad('xnat_subjectAssessorData','generated/xnat_subjectAssessorData.js');
 
-	this.Satscore=null;
+	this.Behavscores_satscore=null;
 
 
-	function getSatscore() {
-		return this.Satscore;
+	function getBehavscores_satscore() {
+		return this.Behavscores_satscore;
 	}
-	this.getSatscore=getSatscore;
+	this.getBehavscores_satscore=getBehavscores_satscore;
 
 
-	function setSatscore(v){
-		this.Satscore=v;
+	function setBehavscores_satscore(v){
+		this.Behavscores_satscore=v;
 	}
-	this.setSatscore=setSatscore;
+	this.setBehavscores_satscore=setBehavscores_satscore;
 
-	this.Actscore=null;
+	this.Behavscores_actscore=null;
 
 
-	function getActscore() {
-		return this.Actscore;
+	function getBehavscores_actscore() {
+		return this.Behavscores_actscore;
 	}
-	this.getActscore=getActscore;
+	this.getBehavscores_actscore=getBehavscores_actscore;
 
 
-	function setActscore(v){
-		this.Actscore=v;
+	function setBehavscores_actscore(v){
+		this.Behavscores_actscore=v;
 	}
-	this.setActscore=setActscore;
+	this.setBehavscores_actscore=setBehavscores_actscore;
 
-	this.Vocabscore=null;
+	this.Behavscores_vocabscore=null;
 
 
-	function getVocabscore() {
-		return this.Vocabscore;
+	function getBehavscores_vocabscore() {
+		return this.Behavscores_vocabscore;
 	}
-	this.getVocabscore=getVocabscore;
+	this.getBehavscores_vocabscore=getBehavscores_vocabscore;
 
 
-	function setVocabscore(v){
-		this.Vocabscore=v;
+	function setBehavscores_vocabscore(v){
+		this.Behavscores_vocabscore=v;
 	}
-	this.setVocabscore=setVocabscore;
+	this.setBehavscores_vocabscore=setBehavscores_vocabscore;
 
-	this.Vocabscaledscore=null;
+	this.Behavscores_vocabscaledscore=null;
 
 
-	function getVocabscaledscore() {
-		return this.Vocabscaledscore;
+	function getBehavscores_vocabscaledscore() {
+		return this.Behavscores_vocabscaledscore;
 	}
-	this.getVocabscaledscore=getVocabscaledscore;
+	this.getBehavscores_vocabscaledscore=getBehavscores_vocabscaledscore;
 
 
-	function setVocabscaledscore(v){
-		this.Vocabscaledscore=v;
+	function setBehavscores_vocabscaledscore(v){
+		this.Behavscores_vocabscaledscore=v;
 	}
-	this.setVocabscaledscore=setVocabscaledscore;
+	this.setBehavscores_vocabscaledscore=setBehavscores_vocabscaledscore;
 
-	this.Figuresascore=null;
+	this.Behavscores_figuresascore=null;
 
 
-	function getFiguresascore() {
-		return this.Figuresascore;
+	function getBehavscores_figuresascore() {
+		return this.Behavscores_figuresascore;
 	}
-	this.getFiguresascore=getFiguresascore;
+	this.getBehavscores_figuresascore=getBehavscores_figuresascore;
 
 
-	function setFiguresascore(v){
-		this.Figuresascore=v;
+	function setBehavscores_figuresascore(v){
+		this.Behavscores_figuresascore=v;
 	}
-	this.setFiguresascore=setFiguresascore;
+	this.setBehavscores_figuresascore=setBehavscores_figuresascore;
 
-	this.Figuresbscore=null;
+	this.Behavscores_figuresbscore=null;
 
 
-	function getFiguresbscore() {
-		return this.Figuresbscore;
+	function getBehavscores_figuresbscore() {
+		return this.Behavscores_figuresbscore;
 	}
-	this.getFiguresbscore=getFiguresbscore;
+	this.getBehavscores_figuresbscore=getBehavscores_figuresbscore;
 
 
-	function setFiguresbscore(v){
-		this.Figuresbscore=v;
+	function setBehavscores_figuresbscore(v){
+		this.Behavscores_figuresbscore=v;
 	}
-	this.setFiguresbscore=setFiguresbscore;
+	this.setBehavscores_figuresbscore=setBehavscores_figuresbscore;
 
-	this.Figuresscore=null;
+	this.Behavscores_figuresscore=null;
 
 
-	function getFiguresscore() {
-		return this.Figuresscore;
+	function getBehavscores_figuresscore() {
+		return this.Behavscores_figuresscore;
 	}
-	this.getFiguresscore=getFiguresscore;
+	this.getBehavscores_figuresscore=getBehavscores_figuresscore;
 
 
-	function setFiguresscore(v){
-		this.Figuresscore=v;
+	function setBehavscores_figuresscore(v){
+		this.Behavscores_figuresscore=v;
 	}
-	this.setFiguresscore=setFiguresscore;
+	this.setBehavscores_figuresscore=setBehavscores_figuresscore;
 
-	this.Figuresascaledscore=null;
+	this.Behavscores_figuresascaledscore=null;
 
 
-	function getFiguresascaledscore() {
-		return this.Figuresascaledscore;
+	function getBehavscores_figuresascaledscore() {
+		return this.Behavscores_figuresascaledscore;
 	}
-	this.getFiguresascaledscore=getFiguresascaledscore;
+	this.getBehavscores_figuresascaledscore=getBehavscores_figuresascaledscore;
 
 
-	function setFiguresascaledscore(v){
-		this.Figuresascaledscore=v;
+	function setBehavscores_figuresascaledscore(v){
+		this.Behavscores_figuresascaledscore=v;
 	}
-	this.setFiguresascaledscore=setFiguresascaledscore;
+	this.setBehavscores_figuresascaledscore=setBehavscores_figuresascaledscore;
 
-	this.Figuresbscaledscore=null;
+	this.Behavscores_figuresbscaledscore=null;
 
 
-	function getFiguresbscaledscore() {
-		return this.Figuresbscaledscore;
+	function getBehavscores_figuresbscaledscore() {
+		return this.Behavscores_figuresbscaledscore;
 	}
-	this.getFiguresbscaledscore=getFiguresbscaledscore;
+	this.getBehavscores_figuresbscaledscore=getBehavscores_figuresbscaledscore;
 
 
-	function setFiguresbscaledscore(v){
-		this.Figuresbscaledscore=v;
+	function setBehavscores_figuresbscaledscore(v){
+		this.Behavscores_figuresbscaledscore=v;
 	}
-	this.setFiguresbscaledscore=setFiguresbscaledscore;
+	this.setBehavscores_figuresbscaledscore=setBehavscores_figuresbscaledscore;
 
-	this.Figuresscaledscore=null;
+	this.Behavscores_figuresscaledscore=null;
 
 
-	function getFiguresscaledscore() {
-		return this.Figuresscaledscore;
+	function getBehavscores_figuresscaledscore() {
+		return this.Behavscores_figuresscaledscore;
 	}
-	this.getFiguresscaledscore=getFiguresscaledscore;
+	this.getBehavscores_figuresscaledscore=getBehavscores_figuresscaledscore;
 
 
-	function setFiguresscaledscore(v){
-		this.Figuresscaledscore=v;
+	function setBehavscores_figuresscaledscore(v){
+		this.Behavscores_figuresscaledscore=v;
 	}
-	this.setFiguresscaledscore=setFiguresscaledscore;
+	this.setBehavscores_figuresscaledscore=setBehavscores_figuresscaledscore;
 
-	this.Lsatascore=null;
+	this.Behavscores_lsatascore=null;
 
 
-	function getLsatascore() {
-		return this.Lsatascore;
+	function getBehavscores_lsatascore() {
+		return this.Behavscores_lsatascore;
 	}
-	this.getLsatascore=getLsatascore;
+	this.getBehavscores_lsatascore=getBehavscores_lsatascore;
 
 
-	function setLsatascore(v){
-		this.Lsatascore=v;
+	function setBehavscores_lsatascore(v){
+		this.Behavscores_lsatascore=v;
 	}
-	this.setLsatascore=setLsatascore;
+	this.setBehavscores_lsatascore=setBehavscores_lsatascore;
 
-	this.Lsatbscore=null;
+	this.Behavscores_lsatbscore=null;
 
 
-	function getLsatbscore() {
-		return this.Lsatbscore;
+	function getBehavscores_lsatbscore() {
+		return this.Behavscores_lsatbscore;
 	}
-	this.getLsatbscore=getLsatbscore;
+	this.getBehavscores_lsatbscore=getBehavscores_lsatbscore;
 
 
-	function setLsatbscore(v){
-		this.Lsatbscore=v;
+	function setBehavscores_lsatbscore(v){
+		this.Behavscores_lsatbscore=v;
 	}
-	this.setLsatbscore=setLsatbscore;
+	this.setBehavscores_lsatbscore=setBehavscores_lsatbscore;
 
-	this.Lsatscore=null;
+	this.Behavscores_lsatscore=null;
 
 
-	function getLsatscore() {
-		return this.Lsatscore;
+	function getBehavscores_lsatscore() {
+		return this.Behavscores_lsatscore;
 	}
-	this.getLsatscore=getLsatscore;
+	this.getBehavscores_lsatscore=getBehavscores_lsatscore;
 
 
-	function setLsatscore(v){
-		this.Lsatscore=v;
+	function setBehavscores_lsatscore(v){
+		this.Behavscores_lsatscore=v;
 	}
-	this.setLsatscore=setLsatscore;
+	this.setBehavscores_lsatscore=setBehavscores_lsatscore;
 
-	this.Letterseries=null;
+	this.Behavscores_letterseries=null;
 
 
-	function getLetterseries() {
-		return this.Letterseries;
+	function getBehavscores_letterseries() {
+		return this.Behavscores_letterseries;
 	}
-	this.getLetterseries=getLetterseries;
+	this.getBehavscores_letterseries=getBehavscores_letterseries;
 
 
-	function setLetterseries(v){
-		this.Letterseries=v;
+	function setBehavscores_letterseries(v){
+		this.Behavscores_letterseries=v;
 	}
-	this.setLetterseries=setLetterseries;
+	this.setBehavscores_letterseries=setBehavscores_letterseries;
 
-	this.Letterseriesscaled=null;
+	this.Behavscores_letterseriesscaled=null;
 
 
-	function getLetterseriesscaled() {
-		return this.Letterseriesscaled;
+	function getBehavscores_letterseriesscaled() {
+		return this.Behavscores_letterseriesscaled;
 	}
-	this.getLetterseriesscaled=getLetterseriesscaled;
+	this.getBehavscores_letterseriesscaled=getBehavscores_letterseriesscaled;
 
 
-	function setLetterseriesscaled(v){
-		this.Letterseriesscaled=v;
+	function setBehavscores_letterseriesscaled(v){
+		this.Behavscores_letterseriesscaled=v;
 	}
-	this.setLetterseriesscaled=setLetterseriesscaled;
+	this.setBehavscores_letterseriesscaled=setBehavscores_letterseriesscaled;
 
-	this.Numberseries=null;
+	this.Behavscores_numberseries=null;
 
 
-	function getNumberseries() {
-		return this.Numberseries;
+	function getBehavscores_numberseries() {
+		return this.Behavscores_numberseries;
 	}
-	this.getNumberseries=getNumberseries;
+	this.getBehavscores_numberseries=getBehavscores_numberseries;
 
 
-	function setNumberseries(v){
-		this.Numberseries=v;
+	function setBehavscores_numberseries(v){
+		this.Behavscores_numberseries=v;
 	}
-	this.setNumberseries=setNumberseries;
+	this.setBehavscores_numberseries=setBehavscores_numberseries;
 
-	this.Numberseriesscaled=null;
+	this.Behavscores_numberseriesscaled=null;
 
 
-	function getNumberseriesscaled() {
-		return this.Numberseriesscaled;
+	function getBehavscores_numberseriesscaled() {
+		return this.Behavscores_numberseriesscaled;
 	}
-	this.getNumberseriesscaled=getNumberseriesscaled;
+	this.getBehavscores_numberseriesscaled=getBehavscores_numberseriesscaled;
 
 
-	function setNumberseriesscaled(v){
-		this.Numberseriesscaled=v;
+	function setBehavscores_numberseriesscaled(v){
+		this.Behavscores_numberseriesscaled=v;
 	}
-	this.setNumberseriesscaled=setNumberseriesscaled;
+	this.setBehavscores_numberseriesscaled=setBehavscores_numberseriesscaled;
 
-	this.Shipleytoabst=null;
+	this.Behavscores_shipleytoabst=null;
 
 
-	function getShipleytoabst() {
-		return this.Shipleytoabst;
+	function getBehavscores_shipleytoabst() {
+		return this.Behavscores_shipleytoabst;
 	}
-	this.getShipleytoabst=getShipleytoabst;
+	this.getBehavscores_shipleytoabst=getBehavscores_shipleytoabst;
 
 
-	function setShipleytoabst(v){
-		this.Shipleytoabst=v;
+	function setBehavscores_shipleytoabst(v){
+		this.Behavscores_shipleytoabst=v;
 	}
-	this.setShipleytoabst=setShipleytoabst;
+	this.setBehavscores_shipleytoabst=setBehavscores_shipleytoabst;
 
-	this.Mr=null;
+	this.Behavscores_mr=null;
 
 
-	function getMr() {
-		return this.Mr;
+	function getBehavscores_mr() {
+		return this.Behavscores_mr;
 	}
-	this.getMr=getMr;
+	this.getBehavscores_mr=getBehavscores_mr;
 
 
-	function setMr(v){
-		this.Mr=v;
+	function setBehavscores_mr(v){
+		this.Behavscores_mr=v;
 	}
-	this.setMr=setMr;
+	this.setBehavscores_mr=setBehavscores_mr;
 
-	this.Mrscaled=null;
+	this.Behavscores_mrscaled=null;
 
 
-	function getMrscaled() {
-		return this.Mrscaled;
+	function getBehavscores_mrscaled() {
+		return this.Behavscores_mrscaled;
 	}
-	this.getMrscaled=getMrscaled;
+	this.getBehavscores_mrscaled=getBehavscores_mrscaled;
 
 
-	function setMrscaled(v){
-		this.Mrscaled=v;
+	function setBehavscores_mrscaled(v){
+		this.Behavscores_mrscaled=v;
 	}
-	this.setMrscaled=setMrscaled;
+	this.setBehavscores_mrscaled=setBehavscores_mrscaled;
+
+	this.Metadata_projectWave=null;
+
+
+	function getMetadata_projectWave() {
+		return this.Metadata_projectWave;
+	}
+	this.getMetadata_projectWave=getMetadata_projectWave;
+
+
+	function setMetadata_projectWave(v){
+		this.Metadata_projectWave=v;
+	}
+	this.setMetadata_projectWave=setMetadata_projectWave;
+
+	this.Metadata_subjectTimepoint=null;
+
+
+	function getMetadata_subjectTimepoint() {
+		return this.Metadata_subjectTimepoint;
+	}
+	this.getMetadata_subjectTimepoint=getMetadata_subjectTimepoint;
+
+
+	function setMetadata_subjectTimepoint(v){
+		this.Metadata_subjectTimepoint=v;
+	}
+	this.setMetadata_subjectTimepoint=setMetadata_subjectTimepoint;
 
 
 	this.getProperty=function(xmlPath){
@@ -326,65 +354,71 @@ this.extension=dynamicJSLoad('xnat_subjectAssessorData','generated/xnat_subjectA
 				if(this.Subjectassessordata!=undefined)return this.Subjectassessordata.getProperty(xmlPath);
 				else return null;
 			} else 
-			if(xmlPath=="SATScore"){
-				return this.Satscore ;
+			if(xmlPath=="BEHAVSCORES/SATScore"){
+				return this.Behavscores_satscore ;
 			} else 
-			if(xmlPath=="ACTScore"){
-				return this.Actscore ;
+			if(xmlPath=="BEHAVSCORES/ACTScore"){
+				return this.Behavscores_actscore ;
 			} else 
-			if(xmlPath=="VocabScore"){
-				return this.Vocabscore ;
+			if(xmlPath=="BEHAVSCORES/VocabScore"){
+				return this.Behavscores_vocabscore ;
 			} else 
-			if(xmlPath=="VocabScaledScore"){
-				return this.Vocabscaledscore ;
+			if(xmlPath=="BEHAVSCORES/VocabScaledScore"){
+				return this.Behavscores_vocabscaledscore ;
 			} else 
-			if(xmlPath=="FiguresAScore"){
-				return this.Figuresascore ;
+			if(xmlPath=="BEHAVSCORES/FiguresAScore"){
+				return this.Behavscores_figuresascore ;
 			} else 
-			if(xmlPath=="FiguresBScore"){
-				return this.Figuresbscore ;
+			if(xmlPath=="BEHAVSCORES/FiguresBScore"){
+				return this.Behavscores_figuresbscore ;
 			} else 
-			if(xmlPath=="FiguresScore"){
-				return this.Figuresscore ;
+			if(xmlPath=="BEHAVSCORES/FiguresScore"){
+				return this.Behavscores_figuresscore ;
 			} else 
-			if(xmlPath=="FiguresAScaledScore"){
-				return this.Figuresascaledscore ;
+			if(xmlPath=="BEHAVSCORES/FiguresAScaledScore"){
+				return this.Behavscores_figuresascaledscore ;
 			} else 
-			if(xmlPath=="FiguresBScaledScore"){
-				return this.Figuresbscaledscore ;
+			if(xmlPath=="BEHAVSCORES/FiguresBScaledScore"){
+				return this.Behavscores_figuresbscaledscore ;
 			} else 
-			if(xmlPath=="FiguresScaledScore"){
-				return this.Figuresscaledscore ;
+			if(xmlPath=="BEHAVSCORES/FiguresScaledScore"){
+				return this.Behavscores_figuresscaledscore ;
 			} else 
-			if(xmlPath=="LSATAScore"){
-				return this.Lsatascore ;
+			if(xmlPath=="BEHAVSCORES/LSATAScore"){
+				return this.Behavscores_lsatascore ;
 			} else 
-			if(xmlPath=="LSATBScore"){
-				return this.Lsatbscore ;
+			if(xmlPath=="BEHAVSCORES/LSATBScore"){
+				return this.Behavscores_lsatbscore ;
 			} else 
-			if(xmlPath=="LSATScore"){
-				return this.Lsatscore ;
+			if(xmlPath=="BEHAVSCORES/LSATScore"){
+				return this.Behavscores_lsatscore ;
 			} else 
-			if(xmlPath=="LetterSeries"){
-				return this.Letterseries ;
+			if(xmlPath=="BEHAVSCORES/LetterSeries"){
+				return this.Behavscores_letterseries ;
 			} else 
-			if(xmlPath=="LetterSeriesScaled"){
-				return this.Letterseriesscaled ;
+			if(xmlPath=="BEHAVSCORES/LetterSeriesScaled"){
+				return this.Behavscores_letterseriesscaled ;
 			} else 
-			if(xmlPath=="NumberSeries"){
-				return this.Numberseries ;
+			if(xmlPath=="BEHAVSCORES/NumberSeries"){
+				return this.Behavscores_numberseries ;
 			} else 
-			if(xmlPath=="NumberSeriesScaled"){
-				return this.Numberseriesscaled ;
+			if(xmlPath=="BEHAVSCORES/NumberSeriesScaled"){
+				return this.Behavscores_numberseriesscaled ;
 			} else 
-			if(xmlPath=="ShipleyTOAbst"){
-				return this.Shipleytoabst ;
+			if(xmlPath=="BEHAVSCORES/ShipleyTOAbst"){
+				return this.Behavscores_shipleytoabst ;
 			} else 
-			if(xmlPath=="MR"){
-				return this.Mr ;
+			if(xmlPath=="BEHAVSCORES/MR"){
+				return this.Behavscores_mr ;
 			} else 
-			if(xmlPath=="MRScaled"){
-				return this.Mrscaled ;
+			if(xmlPath=="BEHAVSCORES/MRScaled"){
+				return this.Behavscores_mrscaled ;
+			} else 
+			if(xmlPath=="METADATA/Project_Wave"){
+				return this.Metadata_projectWave ;
+			} else 
+			if(xmlPath=="METADATA/Subject_Timepoint"){
+				return this.Metadata_subjectTimepoint ;
 			} else 
 			if(xmlPath=="meta"){
 				return this.Meta ;
@@ -428,65 +462,71 @@ this.extension=dynamicJSLoad('xnat_subjectAssessorData','generated/xnat_subjectA
 						this.Subjectassessordata.setProperty(xmlPath,value);
 				}
 			} else 
-			if(xmlPath=="SATScore"){
-				this.Satscore=value;
+			if(xmlPath=="BEHAVSCORES/SATScore"){
+				this.Behavscores_satscore=value;
 			} else 
-			if(xmlPath=="ACTScore"){
-				this.Actscore=value;
+			if(xmlPath=="BEHAVSCORES/ACTScore"){
+				this.Behavscores_actscore=value;
 			} else 
-			if(xmlPath=="VocabScore"){
-				this.Vocabscore=value;
+			if(xmlPath=="BEHAVSCORES/VocabScore"){
+				this.Behavscores_vocabscore=value;
 			} else 
-			if(xmlPath=="VocabScaledScore"){
-				this.Vocabscaledscore=value;
+			if(xmlPath=="BEHAVSCORES/VocabScaledScore"){
+				this.Behavscores_vocabscaledscore=value;
 			} else 
-			if(xmlPath=="FiguresAScore"){
-				this.Figuresascore=value;
+			if(xmlPath=="BEHAVSCORES/FiguresAScore"){
+				this.Behavscores_figuresascore=value;
 			} else 
-			if(xmlPath=="FiguresBScore"){
-				this.Figuresbscore=value;
+			if(xmlPath=="BEHAVSCORES/FiguresBScore"){
+				this.Behavscores_figuresbscore=value;
 			} else 
-			if(xmlPath=="FiguresScore"){
-				this.Figuresscore=value;
+			if(xmlPath=="BEHAVSCORES/FiguresScore"){
+				this.Behavscores_figuresscore=value;
 			} else 
-			if(xmlPath=="FiguresAScaledScore"){
-				this.Figuresascaledscore=value;
+			if(xmlPath=="BEHAVSCORES/FiguresAScaledScore"){
+				this.Behavscores_figuresascaledscore=value;
 			} else 
-			if(xmlPath=="FiguresBScaledScore"){
-				this.Figuresbscaledscore=value;
+			if(xmlPath=="BEHAVSCORES/FiguresBScaledScore"){
+				this.Behavscores_figuresbscaledscore=value;
 			} else 
-			if(xmlPath=="FiguresScaledScore"){
-				this.Figuresscaledscore=value;
+			if(xmlPath=="BEHAVSCORES/FiguresScaledScore"){
+				this.Behavscores_figuresscaledscore=value;
 			} else 
-			if(xmlPath=="LSATAScore"){
-				this.Lsatascore=value;
+			if(xmlPath=="BEHAVSCORES/LSATAScore"){
+				this.Behavscores_lsatascore=value;
 			} else 
-			if(xmlPath=="LSATBScore"){
-				this.Lsatbscore=value;
+			if(xmlPath=="BEHAVSCORES/LSATBScore"){
+				this.Behavscores_lsatbscore=value;
 			} else 
-			if(xmlPath=="LSATScore"){
-				this.Lsatscore=value;
+			if(xmlPath=="BEHAVSCORES/LSATScore"){
+				this.Behavscores_lsatscore=value;
 			} else 
-			if(xmlPath=="LetterSeries"){
-				this.Letterseries=value;
+			if(xmlPath=="BEHAVSCORES/LetterSeries"){
+				this.Behavscores_letterseries=value;
 			} else 
-			if(xmlPath=="LetterSeriesScaled"){
-				this.Letterseriesscaled=value;
+			if(xmlPath=="BEHAVSCORES/LetterSeriesScaled"){
+				this.Behavscores_letterseriesscaled=value;
 			} else 
-			if(xmlPath=="NumberSeries"){
-				this.Numberseries=value;
+			if(xmlPath=="BEHAVSCORES/NumberSeries"){
+				this.Behavscores_numberseries=value;
 			} else 
-			if(xmlPath=="NumberSeriesScaled"){
-				this.Numberseriesscaled=value;
+			if(xmlPath=="BEHAVSCORES/NumberSeriesScaled"){
+				this.Behavscores_numberseriesscaled=value;
 			} else 
-			if(xmlPath=="ShipleyTOAbst"){
-				this.Shipleytoabst=value;
+			if(xmlPath=="BEHAVSCORES/ShipleyTOAbst"){
+				this.Behavscores_shipleytoabst=value;
 			} else 
-			if(xmlPath=="MR"){
-				this.Mr=value;
+			if(xmlPath=="BEHAVSCORES/MR"){
+				this.Behavscores_mr=value;
 			} else 
-			if(xmlPath=="MRScaled"){
-				this.Mrscaled=value;
+			if(xmlPath=="BEHAVSCORES/MRScaled"){
+				this.Behavscores_mrscaled=value;
+			} else 
+			if(xmlPath=="METADATA/Project_Wave"){
+				this.Metadata_projectWave=value;
+			} else 
+			if(xmlPath=="METADATA/Subject_Timepoint"){
+				this.Metadata_subjectTimepoint=value;
 			} else 
 			if(xmlPath=="meta"){
 				this.Meta=value;
@@ -516,45 +556,49 @@ this.extension=dynamicJSLoad('xnat_subjectAssessorData','generated/xnat_subjectA
 	 * Returns whether or not this is a reference field
 	 */
 	this.getFieldType=function(xmlPath){
-		if (xmlPath=="SATScore"){
+		if (xmlPath=="BEHAVSCORES/SATScore"){
 			return "field_data";
-		}else if (xmlPath=="ACTScore"){
+		}else if (xmlPath=="BEHAVSCORES/ACTScore"){
 			return "field_data";
-		}else if (xmlPath=="VocabScore"){
+		}else if (xmlPath=="BEHAVSCORES/VocabScore"){
 			return "field_data";
-		}else if (xmlPath=="VocabScaledScore"){
+		}else if (xmlPath=="BEHAVSCORES/VocabScaledScore"){
 			return "field_data";
-		}else if (xmlPath=="FiguresAScore"){
+		}else if (xmlPath=="BEHAVSCORES/FiguresAScore"){
 			return "field_data";
-		}else if (xmlPath=="FiguresBScore"){
+		}else if (xmlPath=="BEHAVSCORES/FiguresBScore"){
 			return "field_data";
-		}else if (xmlPath=="FiguresScore"){
+		}else if (xmlPath=="BEHAVSCORES/FiguresScore"){
 			return "field_data";
-		}else if (xmlPath=="FiguresAScaledScore"){
+		}else if (xmlPath=="BEHAVSCORES/FiguresAScaledScore"){
 			return "field_data";
-		}else if (xmlPath=="FiguresBScaledScore"){
+		}else if (xmlPath=="BEHAVSCORES/FiguresBScaledScore"){
 			return "field_data";
-		}else if (xmlPath=="FiguresScaledScore"){
+		}else if (xmlPath=="BEHAVSCORES/FiguresScaledScore"){
 			return "field_data";
-		}else if (xmlPath=="LSATAScore"){
+		}else if (xmlPath=="BEHAVSCORES/LSATAScore"){
 			return "field_data";
-		}else if (xmlPath=="LSATBScore"){
+		}else if (xmlPath=="BEHAVSCORES/LSATBScore"){
 			return "field_data";
-		}else if (xmlPath=="LSATScore"){
+		}else if (xmlPath=="BEHAVSCORES/LSATScore"){
 			return "field_data";
-		}else if (xmlPath=="LetterSeries"){
+		}else if (xmlPath=="BEHAVSCORES/LetterSeries"){
 			return "field_data";
-		}else if (xmlPath=="LetterSeriesScaled"){
+		}else if (xmlPath=="BEHAVSCORES/LetterSeriesScaled"){
 			return "field_data";
-		}else if (xmlPath=="NumberSeries"){
+		}else if (xmlPath=="BEHAVSCORES/NumberSeries"){
 			return "field_data";
-		}else if (xmlPath=="NumberSeriesScaled"){
+		}else if (xmlPath=="BEHAVSCORES/NumberSeriesScaled"){
 			return "field_data";
-		}else if (xmlPath=="ShipleyTOAbst"){
+		}else if (xmlPath=="BEHAVSCORES/ShipleyTOAbst"){
 			return "field_data";
-		}else if (xmlPath=="MR"){
+		}else if (xmlPath=="BEHAVSCORES/MR"){
 			return "field_data";
-		}else if (xmlPath=="MRScaled"){
+		}else if (xmlPath=="BEHAVSCORES/MRScaled"){
+			return "field_data";
+		}else if (xmlPath=="METADATA/Project_Wave"){
+			return "field_data";
+		}else if (xmlPath=="METADATA/Subject_Timepoint"){
 			return "field_data";
 		}
 		else{
@@ -603,126 +647,206 @@ this.extension=dynamicJSLoad('xnat_subjectAssessorData','generated/xnat_subjectA
 	this.getXMLBody=function(preventComments){
 		var xmlTxt=this.getXMLComments(preventComments);
 		xmlTxt+=this.extension.getXMLBody(preventComments);
-		if (this.Satscore!=null){
+			var child0=0;
+			var att0=0;
+			if(this.Behavscores_vocabscore!=null)
+			child0++;
+			if(this.Behavscores_figuresbscore!=null)
+			child0++;
+			if(this.Behavscores_figuresscaledscore!=null)
+			child0++;
+			if(this.Behavscores_mr!=null)
+			child0++;
+			if(this.Behavscores_figuresscore!=null)
+			child0++;
+			if(this.Behavscores_lsatascore!=null)
+			child0++;
+			if(this.Behavscores_mrscaled!=null)
+			child0++;
+			if(this.Behavscores_letterseriesscaled!=null)
+			child0++;
+			if(this.Behavscores_figuresascaledscore!=null)
+			child0++;
+			if(this.Behavscores_lsatbscore!=null)
+			child0++;
+			if(this.Behavscores_numberseriesscaled!=null)
+			child0++;
+			if(this.Behavscores_shipleytoabst!=null)
+			child0++;
+			if(this.Behavscores_letterseries!=null)
+			child0++;
+			if(this.Behavscores_figuresbscaledscore!=null)
+			child0++;
+			if(this.Behavscores_lsatscore!=null)
+			child0++;
+			if(this.Behavscores_actscore!=null)
+			child0++;
+			if(this.Behavscores_vocabscaledscore!=null)
+			child0++;
+			if(this.Behavscores_numberseries!=null)
+			child0++;
+			if(this.Behavscores_satscore!=null)
+			child0++;
+			if(this.Behavscores_figuresascore!=null)
+			child0++;
+			if(child0>0 || att0>0){
+				xmlTxt+="\n<behavioral:BEHAVSCORES";
+			if(child0==0){
+				xmlTxt+="/>";
+			}else{
+				xmlTxt+=">";
+		if (this.Behavscores_satscore!=null){
 			xmlTxt+="\n<behavioral:SATScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Satscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_satscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:SATScore>";
 		}
-		if (this.Actscore!=null){
+		if (this.Behavscores_actscore!=null){
 			xmlTxt+="\n<behavioral:ACTScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Actscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_actscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:ACTScore>";
 		}
-		if (this.Vocabscore!=null){
+		if (this.Behavscores_vocabscore!=null){
 			xmlTxt+="\n<behavioral:VocabScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Vocabscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_vocabscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:VocabScore>";
 		}
-		if (this.Vocabscaledscore!=null){
+		if (this.Behavscores_vocabscaledscore!=null){
 			xmlTxt+="\n<behavioral:VocabScaledScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Vocabscaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_vocabscaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:VocabScaledScore>";
 		}
-		if (this.Figuresascore!=null){
+		if (this.Behavscores_figuresascore!=null){
 			xmlTxt+="\n<behavioral:FiguresAScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Figuresascore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_figuresascore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:FiguresAScore>";
 		}
-		if (this.Figuresbscore!=null){
+		if (this.Behavscores_figuresbscore!=null){
 			xmlTxt+="\n<behavioral:FiguresBScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Figuresbscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_figuresbscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:FiguresBScore>";
 		}
-		if (this.Figuresscore!=null){
+		if (this.Behavscores_figuresscore!=null){
 			xmlTxt+="\n<behavioral:FiguresScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Figuresscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_figuresscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:FiguresScore>";
 		}
-		if (this.Figuresascaledscore!=null){
+		if (this.Behavscores_figuresascaledscore!=null){
 			xmlTxt+="\n<behavioral:FiguresAScaledScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Figuresascaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_figuresascaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:FiguresAScaledScore>";
 		}
-		if (this.Figuresbscaledscore!=null){
+		if (this.Behavscores_figuresbscaledscore!=null){
 			xmlTxt+="\n<behavioral:FiguresBScaledScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Figuresbscaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_figuresbscaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:FiguresBScaledScore>";
 		}
-		if (this.Figuresscaledscore!=null){
+		if (this.Behavscores_figuresscaledscore!=null){
 			xmlTxt+="\n<behavioral:FiguresScaledScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Figuresscaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_figuresscaledscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:FiguresScaledScore>";
 		}
-		if (this.Lsatascore!=null){
+		if (this.Behavscores_lsatascore!=null){
 			xmlTxt+="\n<behavioral:LSATAScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Lsatascore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_lsatascore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:LSATAScore>";
 		}
-		if (this.Lsatbscore!=null){
+		if (this.Behavscores_lsatbscore!=null){
 			xmlTxt+="\n<behavioral:LSATBScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Lsatbscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_lsatbscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:LSATBScore>";
 		}
-		if (this.Lsatscore!=null){
+		if (this.Behavscores_lsatscore!=null){
 			xmlTxt+="\n<behavioral:LSATScore";
 			xmlTxt+=">";
-			xmlTxt+=this.Lsatscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_lsatscore.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:LSATScore>";
 		}
-		if (this.Letterseries!=null){
+		if (this.Behavscores_letterseries!=null){
 			xmlTxt+="\n<behavioral:LetterSeries";
 			xmlTxt+=">";
-			xmlTxt+=this.Letterseries.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_letterseries.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:LetterSeries>";
 		}
-		if (this.Letterseriesscaled!=null){
+		if (this.Behavscores_letterseriesscaled!=null){
 			xmlTxt+="\n<behavioral:LetterSeriesScaled";
 			xmlTxt+=">";
-			xmlTxt+=this.Letterseriesscaled.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_letterseriesscaled.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:LetterSeriesScaled>";
 		}
-		if (this.Numberseries!=null){
+		if (this.Behavscores_numberseries!=null){
 			xmlTxt+="\n<behavioral:NumberSeries";
 			xmlTxt+=">";
-			xmlTxt+=this.Numberseries.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_numberseries.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:NumberSeries>";
 		}
-		if (this.Numberseriesscaled!=null){
+		if (this.Behavscores_numberseriesscaled!=null){
 			xmlTxt+="\n<behavioral:NumberSeriesScaled";
 			xmlTxt+=">";
-			xmlTxt+=this.Numberseriesscaled.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_numberseriesscaled.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:NumberSeriesScaled>";
 		}
-		if (this.Shipleytoabst!=null){
+		if (this.Behavscores_shipleytoabst!=null){
 			xmlTxt+="\n<behavioral:ShipleyTOAbst";
 			xmlTxt+=">";
-			xmlTxt+=this.Shipleytoabst.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_shipleytoabst.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:ShipleyTOAbst>";
 		}
-		if (this.Mr!=null){
+		if (this.Behavscores_mr!=null){
 			xmlTxt+="\n<behavioral:MR";
 			xmlTxt+=">";
-			xmlTxt+=this.Mr.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_mr.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:MR>";
 		}
-		if (this.Mrscaled!=null){
+		if (this.Behavscores_mrscaled!=null){
 			xmlTxt+="\n<behavioral:MRScaled";
 			xmlTxt+=">";
-			xmlTxt+=this.Mrscaled.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+=this.Behavscores_mrscaled.replace(/>/g,"&gt;").replace(/</g,"&lt;");
 			xmlTxt+="</behavioral:MRScaled>";
 		}
+				xmlTxt+="\n</behavioral:BEHAVSCORES>";
+			}
+			}
+
+			var child1=0;
+			var att1=0;
+			if(this.Metadata_subjectTimepoint!=null)
+			child1++;
+			if(this.Metadata_projectWave!=null)
+			child1++;
+			if(child1>0 || att1>0){
+				xmlTxt+="\n<behavioral:METADATA";
+			if(child1==0){
+				xmlTxt+="/>";
+			}else{
+				xmlTxt+=">";
+		if (this.Metadata_projectWave!=null){
+			xmlTxt+="\n<behavioral:Project_Wave";
+			xmlTxt+=">";
+			xmlTxt+=this.Metadata_projectWave.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+="</behavioral:Project_Wave>";
+		}
+		if (this.Metadata_subjectTimepoint!=null){
+			xmlTxt+="\n<behavioral:Subject_Timepoint";
+			xmlTxt+=">";
+			xmlTxt+=this.Metadata_subjectTimepoint.replace(/>/g,"&gt;").replace(/</g,"&lt;");
+			xmlTxt+="</behavioral:Subject_Timepoint>";
+		}
+				xmlTxt+="\n</behavioral:METADATA>";
+			}
+			}
+
 		return xmlTxt;
 	}
 
@@ -732,26 +856,28 @@ this.extension=dynamicJSLoad('xnat_subjectAssessorData','generated/xnat_subjectA
 
 
 	this.hasXMLBodyContent=function(){
-		if (this.Satscore!=null) return true;
-		if (this.Actscore!=null) return true;
-		if (this.Vocabscore!=null) return true;
-		if (this.Vocabscaledscore!=null) return true;
-		if (this.Figuresascore!=null) return true;
-		if (this.Figuresbscore!=null) return true;
-		if (this.Figuresscore!=null) return true;
-		if (this.Figuresascaledscore!=null) return true;
-		if (this.Figuresbscaledscore!=null) return true;
-		if (this.Figuresscaledscore!=null) return true;
-		if (this.Lsatascore!=null) return true;
-		if (this.Lsatbscore!=null) return true;
-		if (this.Lsatscore!=null) return true;
-		if (this.Letterseries!=null) return true;
-		if (this.Letterseriesscaled!=null) return true;
-		if (this.Numberseries!=null) return true;
-		if (this.Numberseriesscaled!=null) return true;
-		if (this.Shipleytoabst!=null) return true;
-		if (this.Mr!=null) return true;
-		if (this.Mrscaled!=null) return true;
+			if(this.Behavscores_vocabscore!=null) return true;
+			if(this.Behavscores_figuresbscore!=null) return true;
+			if(this.Behavscores_figuresscaledscore!=null) return true;
+			if(this.Behavscores_mr!=null) return true;
+			if(this.Behavscores_figuresscore!=null) return true;
+			if(this.Behavscores_lsatascore!=null) return true;
+			if(this.Behavscores_mrscaled!=null) return true;
+			if(this.Behavscores_letterseriesscaled!=null) return true;
+			if(this.Behavscores_figuresascaledscore!=null) return true;
+			if(this.Behavscores_lsatbscore!=null) return true;
+			if(this.Behavscores_numberseriesscaled!=null) return true;
+			if(this.Behavscores_shipleytoabst!=null) return true;
+			if(this.Behavscores_letterseries!=null) return true;
+			if(this.Behavscores_figuresbscaledscore!=null) return true;
+			if(this.Behavscores_lsatscore!=null) return true;
+			if(this.Behavscores_actscore!=null) return true;
+			if(this.Behavscores_vocabscaledscore!=null) return true;
+			if(this.Behavscores_numberseries!=null) return true;
+			if(this.Behavscores_satscore!=null) return true;
+			if(this.Behavscores_figuresascore!=null) return true;
+			if(this.Metadata_subjectTimepoint!=null) return true;
+			if(this.Metadata_projectWave!=null) return true;
 		if(this.hasXMLComments())return true;
 		if(this.extension.hasXMLBodyContent())return true;
 		return false;
