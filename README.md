@@ -1,1 +1,1 @@
-#placeholder
+Tools for managing and customizing the LCBC XNAT instance. 
