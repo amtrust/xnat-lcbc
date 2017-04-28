@@ -1,0 +1,11 @@
+## max image size: 240w x 120h
+#set ($siteUrl = $siteConfig.getProperty("siteUrl",""))
+#*if ($siteUrl.contains("cnda-dev"))
+<img class="logo_img" src="$content.getURI("images/cnda_dev.png")" style="border:none;max-height:70px;">
+#elseif ($siteUrl.contains("cnda-demo") || $siteUrl.contains("cnda-test"))
+<img class="logo_img" src="$content.getURI("images/cnda_test.png")" style="border:none;max-height:70px;">
+#else
+<img class="logo_img" src="$content.getURI("images/cnda_prod.png")" style="border:none;max-height:70px;">
+*#end
+
+<img class="logo_img" src="$content.getURI("images/lcbc.png")" style="border:none;max-height:70px;">

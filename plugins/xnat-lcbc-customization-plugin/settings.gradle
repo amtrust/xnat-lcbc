@@ -1,0 +1,17 @@
+/*
+ * xnat-lcbc-customization-plugin: settings.gradle
+ * http://www.oslobrains.no
+ * Copyright (c) 2017, University of Oslo
+ * All Rights Reserved
+ *
+ * Released under the Simplified BSD.
+ */
+
+/*
+// To declare projects as part of a multi-project build use the 'include' method
+include 'shared'
+include 'api'
+include 'services:webservice'
+*/
+
+rootProject.name = 'xnat-lcbc-visit-metadata-plugin'

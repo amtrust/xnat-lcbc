@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://sharp.bidmc.harvard.edu/behavioral" xmlns:behavioral="http://sharp.bidmc.harvard.edu/behavioral" xmlns:xnat="http://nrg.wustl.edu/xnat" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://nrg.wustl.edu/xnat" schemaLocation="../xnat/xnat.xsd"/>
+	<xs:element name="BehavioralScores" type="behavioral:scores"/>
+
+	<xs:complexType name="scores">
+		<xs:annotation>
+			<xs:documentation>Behavioral Score for SHARP study</xs:documentation>
+		</xs:annotation>
+
+		<xs:complexContent>
+			<xs:extension base="xnat:subjectAssessorData">
+				<xs:sequence>
+			
+				<xs:element name="BEHAVSCORES" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						Original behavscores Added metadata (Should reside under behavioral:scores/BEHAVSCORES/)
+					</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+			
+					<xs:element name="SATScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>SATScore</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<!-- this can be used to add validations-->
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="ACTScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>ACTScore</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="VocabScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Shipley2VocabTotal</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="VocabScaledScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Shipley2VocabScaled</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="FiguresAScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>FigureSeriesATotal</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="FiguresBScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>FigureSeriesBTotal</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="FiguresScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>FigureSeriesBothTotal</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="FiguresAScaledScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>FigureSeriesAScaled</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="FiguresBScaledScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>FigureSeriesBScaled</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+						<xs:element name="FiguresScaledScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>FigureSeriesBothScaled</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+						<xs:element name="LSATAScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>LSATAScore</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xxs:string"/>
+						</xs:simpleType>
+					</xs:element>
+						<xs:element name="LSATBScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>LSATBScore</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="LSATScore" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>LSATBothScore</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="LetterSeries" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>LetterSeriesTotal</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+						<xs:element name="LetterSeriesScaled" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>LetterSeriesScaled</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+						<xs:element name="NumberSeries" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>NumberSeriesTotal</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="NumberSeriesScaled" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>NumberSeriesScaled</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="ShipleyTOAbst" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Shipley2AbstTotal</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="MR" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>MR</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="MRScaled" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>MRScaled</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+				
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			
+			<xs:element name="METADATA" minOccurs="0" maxOccurs="1">
+				<xs:annotation>
+					<xs:documentation>
+						Added metadata (Should reside under behavioral:scores/METADATA/)
+					</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>	
+				
+					<xs:element name="Project_Wave" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Project_Wave</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<!-- this can be used to add validations-->
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="Subject_Timepoint" type="xs:string" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation>Subject_timepoint</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string"/>
+						</xs:simpleType>
+					</xs:element>
+				
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+				
+				
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+
+</xs:schema>
